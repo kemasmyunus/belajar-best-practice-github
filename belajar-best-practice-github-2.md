@@ -52,3 +52,30 @@ Setelah memahami dasar-dasar penggunaan GitHub secara efisien, ada beberapa prak
 ## 6. Gunakan GitHub Discussions
 - Aktifkan fitur Discussions untuk berdiskusi tanpa harus membuat issue.
 - Cocok untuk ide fitur baru, feedback, atau tanya jawab teknis.
+
+## 7. Terapkan Git Hooks
+- Gunakan pre-commit hooks (dengan [Husky](https://typicode.github.io/husky) atau `pre-commit`) untuk:
+  - Menjalankan formatter (seperti Prettier, Black)
+  - Menjalankan tes unit otomatis sebelum commit
+
+## 8. Buat Badges yang Informatif
+- Tambahkan badge di `README.md`:
+  - Build status (`CI`)
+  - Coverage test (`codecov`)
+  - Versi rilis (`npm`, `PyPI`)
+  - Lisensi
+- Contoh:
+  ```markdown
+  ![CI](https://github.com/user/repo/actions/workflows/ci.yml/badge.svg)
+  ![License](https://img.shields.io/github/license/user/repo)
+  ```
+
+## 9. Arsipkan Proyek yang Tidak Aktif
+- Tandai proyek yang sudah tidak aktif dengan status `archived`.
+- Update `README.md` untuk menjelaskan status dan alasan penghentian.
+
+## 10. Gunakan Git Submodules atau Monorepo dengan Bijak
+- Submodules untuk dependensi antar-repo.
+- Monorepo untuk menyatukan banyak komponen dalam satu repositori (gunakan [Lerna](https://lerna.js.org/) atau [Nx](https://nx.dev/) jika perlu).
+
+---
