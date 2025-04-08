@@ -43,3 +43,12 @@ Setelah memahami dasar-dasar penggunaan GitHub secara efisien, ada beberapa prak
   - [ ] Dokumentasi diperbarui
   ```
 
+## 5. Dokumentasi Kontributor
+- Tambahkan `CONTRIBUTING.md` yang menjelaskan:
+  - Cara memulai proyek secara lokal
+  - Aturan penamaan branch dan commit
+  - Cara membuat pull request
+
+## 6. Gunakan GitHub Discussions
+- Aktifkan fitur Discussions untuk berdiskusi tanpa harus membuat issue.
+- Cocok untuk ide fitur baru, feedback, atau tanya jawab teknis.
