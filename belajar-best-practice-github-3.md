@@ -55,3 +55,32 @@ Memahami cara terbaik dalam mengelola *branch* dan melakukan *pull request* (PR)
 > 🎯 **Gunakan squash merge untuk menggabungkan commit menjadi satu jika terlalu banyak commit kecil.**
 
 ---
+
+## 5. 🚨 Hindari Force Push ke Branch Bersama
+
+`git push --force` bisa menghapus histori kerja tim. Gunakan hanya di branch pribadi.
+
+Jika perlu pakai:
+```bash
+git push --force-with-lease
+```
+
+---
+
+## 6. 📌 Tambahkan Template PR & Issue
+
+Buat file `.github/pull_request_template.md` agar PR lebih konsisten:
+
+```md
+### Deskripsi
+...
+
+### Perubahan
+- [ ] ...
+
+### Checklist
+- [ ] Sudah diuji
+- [ ] Tidak merusak fitur lain
+```
+
+---
