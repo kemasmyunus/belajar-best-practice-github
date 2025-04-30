@@ -84,3 +84,22 @@ Buat file `.github/pull_request_template.md` agar PR lebih konsisten:
 ```
 
 ---
+
+
+## 7. 📚 Dokumentasi dan Catatan Rilis
+
+- Gunakan `CHANGELOG.md` untuk mencatat perubahan penting.
+- Buat rilis GitHub di tab **"Releases"** setelah merge ke `main`.
+
+---
+
+### 🧠 Kesimpulan
+
+Branching dan PR yang rapi akan:
+- Memudahkan kolaborasi tim
+- Mencegah konflik besar
+- Meningkatkan kualitas kode
+
+> 🔁 “Write code for others to read, not just for machines to run.”
+
+---
