@@ -33,3 +33,25 @@ Memahami cara terbaik dalam mengelola *branch* dan melakukan *pull request* (PR)
    Gunakan `Closes #123` untuk menutup issue secara otomatis.
 
 ---
+
+## 3. ✅ Review Code Sebelum Merge
+
+- **Gunakan fitur Review Request di GitHub.**
+- Komentar dengan sopan dan fokus pada perbaikan kode, bukan personal.
+- Tambahkan label seperti:
+  - `needs review`
+  - `ready to merge`
+  - `work in progress`
+
+---
+
+## 4. 🔀 Strategi Merge: Rebase vs Merge Commit
+
+| Strategi     | Kapan Digunakan         | Kelebihan                    |
+|--------------|--------------------------|------------------------------|
+| Merge commit | Untuk kolaborasi umum    | Sejarah lengkap              |
+| Rebase       | Untuk PR pribadi kecil   | Riwayat bersih & linear      |
+
+> 🎯 **Gunakan squash merge untuk menggabungkan commit menjadi satu jika terlalu banyak commit kecil.**
+
+---
