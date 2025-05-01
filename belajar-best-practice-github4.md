@@ -33,3 +33,44 @@ Gunakan **Projects (Board)** seperti Kanban:
 > 📌 Gunakan label seperti `bug`, `enhancement`, `help wanted` untuk pengelompokan yang rapi.
 
 ---
+
+## 10. 🛠️ Continuous Integration (CI)
+
+Integrasikan **GitHub Actions** untuk otomatisasi:
+- Cek linting (format kode)
+- Jalankan unit test
+- Build proyek
+
+Contoh `.github/workflows/ci.yml`:
+
+```yaml
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    - run: npm install
+    - run: npm run lint
+    - run: npm test
+```
+
+---
+
+## 11. 👥 Kolaborasi Tim: Assign & Mention
+
+Gunakan fitur GitHub untuk:
+- **Assign issue/PR** ke tim yang bertanggung jawab
+- **Mention anggota tim** dengan `@username` di komentar
+
+Contoh komentar:
+```
+@pachanpanatto Tolong review bagian validasi email ya 🙏
+```
+
+---
