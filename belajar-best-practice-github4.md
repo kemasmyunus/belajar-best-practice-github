@@ -74,3 +74,36 @@ Contoh komentar:
 ```
 
 ---
+
+## 12. 🧽 Bersihkan Branch Lama
+
+Setelah PR di-merge:
+- Hapus branch lama agar repo tetap bersih
+- Bisa otomatis lewat GitHub:
+  > "Delete branch" button setelah PR merge
+
+---
+
+## 13. 📦 Gunakan Tag & Release untuk Versi
+
+Gunakan semver untuk tagging:
+- `v1.0.0` = rilis utama
+- `v1.0.1` = perbaikan kecil
+- `v1.1.0` = penambahan fitur
+
+Gunakan tab **Releases** di GitHub untuk mendeskripsikan:
+- Fitur baru
+- Bugfix
+- Catatan penting
+
+---
+
+## 📝 Ringkasan Best Practice #3
+
+✅ Buat branch terstruktur  
+✅ PR jelas dan ter-review  
+✅ Gunakan proteksi dan CI  
+✅ Bersihkan branch lama  
+✅ Kelola issue dan tugas dengan baik
+
+---
