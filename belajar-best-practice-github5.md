@@ -158,3 +158,36 @@ Gunakan tool dokumentasi otomatis:
 * Sphinx (Python)
 
 ---
+
+## 7. 🧪 Tambahkan Tes (Unit Test)
+
+Testing = kode lebih andal.
+
+Gunakan:
+
+* Jest / Vitest untuk JS/TS
+* Pytest untuk Python
+* JUnit untuk Java
+* Espresso untuk Android
+
+Struktur folder tes:
+
+```
+/tests
+  login.test.js
+  user.test.js
+```
+
+---
+
+## 8. 🧠 Buat Wiki (Opsional)
+
+Untuk dokumentasi tambahan seperti:
+
+* Arsitektur sistem
+* Panduan deploy
+* Konsep data flow
+
+GitHub menyediakan tab **Wiki** khusus untuk ini.
+
+---
