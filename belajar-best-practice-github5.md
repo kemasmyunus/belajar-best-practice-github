@@ -68,3 +68,43 @@ Contoh:
 ````
 
 ---
+
+## 3. ✅ Tambahkan Lisensi (`LICENSE`)
+
+Setiap proyek **wajib punya lisensi**, agar orang lain tahu hak penggunaan kode.
+
+Beberapa lisensi populer:
+
+| Lisensi | Keterangan                          |
+| ------- | ----------------------------------- |
+| MIT     | Bebas pakai & modifikasi            |
+| GPL     | Wajib buka source jika dimodifikasi |
+| Apache  | Mirip MIT tapi lebih legalistik     |
+
+> Bisa generate otomatis di GitHub saat membuat repo.
+
+---
+
+## 4. 🧭 Gunakan `.gitignore` yang Sesuai
+
+`.gitignore` mencegah file tidak penting (misal: build, log, secret) masuk repo.
+
+Contoh untuk Node.js:
+
+```
+node_modules/
+.env
+dist/
+```
+
+Contoh untuk Android:
+
+```
+*.iml
+.gradle
+/local.properties
+```
+
+Gunakan [gitignore.io](https://www.toptal.com/developers/gitignore) untuk generate otomatis.
+
+---
