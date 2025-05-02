@@ -108,3 +108,53 @@ Contoh untuk Android:
 Gunakan [gitignore.io](https://www.toptal.com/developers/gitignore) untuk generate otomatis.
 
 ---
+
+## 5. 🔧 Standarisasi Struktur Folder
+
+Struktur folder yang rapi = tim lebih mudah bekerja sama.
+
+Contoh frontend web:
+
+```
+/src
+  /components
+  /pages
+  /utils
+/public
+/tests
+```
+
+Contoh backend API:
+
+```
+/controllers
+/routes
+/models
+/utils
+```
+
+---
+
+## 6. 💬 Tambahkan Komentar dan Dokumentasi Kode
+
+Komentar yang baik = kode lebih mudah dipahami. Gunakan standar seperti:
+
+```js
+/**
+ * Menghitung total harga dengan diskon
+ * @param {number} harga
+ * @param {number} diskon
+ * @returns {number}
+ */
+function hitungHarga(harga, diskon) {
+  return harga - harga * diskon;
+}
+```
+
+Gunakan tool dokumentasi otomatis:
+
+* JSDoc (JavaScript)
+* Doxygen (C/C++)
+* Sphinx (Python)
+
+---
