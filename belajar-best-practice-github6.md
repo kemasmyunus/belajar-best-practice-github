@@ -100,3 +100,37 @@ Gunakan emoji (opsional) untuk mempercantik:
 * 📄 update dokumentasi
 
 ---
+
+## 5. 💼 Tautkan GitHub di CV dan LinkedIn
+
+Jangan hanya punya GitHub — **promosikan juga**:
+
+* Tambahkan link GitHub ke CV
+* Tambahkan proyek GitHub ke LinkedIn bagian “Project”
+* Post update kemajuan proyek atau belajar di LinkedIn
+
+---
+
+## 6. 🔁 Jaga Konsistensi Aktivitas
+
+Aktif di GitHub = nilai plus dari HR atau dosen.
+
+Tips menjaga aktivitas:
+
+* Commits kecil setiap minggu
+* Ikut tantangan seperti:
+
+  * \#100DaysOfCode
+  * \#Hacktoberfest
+
+---
+
+## 🔚 Penutup
+
+Dengan menerapkan prinsip ini:
+
+* GitHub-mu jadi **bukti nyata skill**
+* Portofoliomu tampil lebih **profesional**
+* Branding digitalmu jadi lebih **meyakinkan**
+
+---
