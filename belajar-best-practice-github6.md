@@ -61,3 +61,42 @@ Tips:
 * Tambahkan tag atau topik: `android`, `web`, `database`
 
 ---
+
+## 3. 🧪 Tunjukkan Kemampuan melalui Proyek Realistis
+
+Buat proyek yang **menyelesaikan masalah nyata**, bukan hanya tutorial.
+
+Contoh:
+
+| Tujuan          | Proyek                                               |
+| --------------- | ---------------------------------------------------- |
+| Latihan Android | Aplikasi pengingat minum, to-do list, BMI calculator |
+| Latihan Web     | Sistem absensi, katalog buku, website portofolio     |
+| Backend/API     | REST API produk, login & register JWT, CRUD data     |
+
+Tambahkan:
+
+* README yang jelas
+* Screenshot/demonstrasi
+* Deploy ke GitHub Pages / Firebase / Vercel bila memungkinkan
+
+---
+
+## 4. 📝 Gunakan Commit yang Rapi dan Konsisten
+
+Contoh format commit:
+
+```
+[fitur] Tambah halaman login
+[perbaikan] Fix bug validasi form
+[refactor] Pisahkan komponen Navbar
+```
+
+Gunakan emoji (opsional) untuk mempercantik:
+
+* ✨ fitur baru
+* 🐛 perbaikan bug
+* 🧼 refactor
+* 📄 update dokumentasi
+
+---
