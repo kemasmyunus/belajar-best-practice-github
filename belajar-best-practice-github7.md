@@ -83,3 +83,44 @@ Sebelum merge:
   * [ ] Fitur berjalan sesuai harapan
 
 ---
+
+## 5. 🤝 Bangun Jejak Sosial Developer
+
+Berinteraksilah di komunitas:
+
+* GitHub Discussions
+* Forum teknologi (Stack Overflow, Reddit)
+* LinkedIn post: ceritakan PR yang kamu kerjakan
+
+Komentar positif + kontribusi = reputasi naik
+
+> “Banyak yang dapat kerja **karena komunitas** open source, bukan sekadar ijazah.”
+
+---
+
+## 6. 📝 Tambahkan Pengalaman Open Source di CV
+
+Tulis sebagai pengalaman kerja tidak formal:
+
+```md
+Freelance / Kontributor Open Source
+GitHub Project: Sistem Manajemen Pasien
+Jan 2025 – Sekarang
+- Membangun frontend dengan React
+- Membuat REST API untuk login & CRUD pasien
+- Kolaborasi melalui GitHub Pull Request & Issue
+```
+
+---
+
+## 🔚 Penutup: Tidak Ada Magang? Bangun Sendiri.
+
+Kamu bisa:
+
+✅ Simulasikan proyek sendiri
+✅ Gabung proyek open source
+✅ Bangun reputasi GitHub yang aktif dan profesional
+
+> 🔧 *“Jangan tunggu disuruh. Ciptakan peluang belajarmu sendiri.”*
+
+---
