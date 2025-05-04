@@ -44,3 +44,42 @@ Kalau belum ada kesempatan magang, **buat simulasi proyek pribadi** seperti:
 > Buat seolah kamu mengerjakan proyek pesanan dari klien nyata. Tambahkan dokumentasi, to-do list, dan deskripsi pengguna.
 
 ---
+
+## 3. 📁 Gunakan Fitur GitHub Projects (Board) Seperti Jira
+
+Tunjukkan kamu bisa bekerja terstruktur:
+
+* Buat board `To Do – In Progress – Done`
+* Tambahkan issue untuk tiap fitur
+* Tautkan PR dengan issue
+
+Contoh issue:
+
+```md
+# Fitur: Tambah halaman registrasi
+Deskripsi:
+Buat halaman form registrasi user baru.
+
+Checklist:
+- [ ] Desain UI
+- [ ] Validasi input
+- [ ] Simpan ke database
+```
+
+---
+
+## 4. 🧪 Review dan Uji Kode Sendiri Seperti Profesional
+
+Jangan asal push.
+
+Sebelum merge:
+
+* Cek struktur folder
+* Jalankan unit test/manual test
+* Gunakan checklist PR:
+
+  * [ ] Sudah sesuai style guide
+  * [ ] Tidak menghapus kode penting
+  * [ ] Fitur berjalan sesuai harapan
+
+---
