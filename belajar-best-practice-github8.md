@@ -108,3 +108,31 @@ Deploy ke Vercel:
 Gunakan token dan pasang action resmi Vercel dari marketplace.
 
 ---
+
+## 5. 🔑 Gunakan Secrets (Rahasia)
+
+Jangan pernah hardcode password/API key di repo.
+
+Gunakan **GitHub Secrets**:
+
+* Masuk ke `Settings` → `Secrets and variables`
+* Tambahkan `API_KEY`, `FIREBASE_SERVICE_ACCOUNT`, dll.
+
+Panggil dengan:
+
+```yaml
+${{ secrets.API_KEY }}
+```
+
+---
+
+## 6. 📤 Kirim Notifikasi ke Discord/Telegram/Slack
+
+Tambahkan notifikasi setelah job sukses/gagal:
+
+```yaml
+- name: Kirim notifikasi ke Discord
+  run: curl -H "Content-Type: application/json" \
+       -d '{"content":"Build sukses! 🎉"}' \
+       ${{ secrets.DISCORD_WEBHOOK }}
+```
