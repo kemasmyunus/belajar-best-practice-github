@@ -70,3 +70,41 @@ jobs:
 ```
 
 ---
+
+## 3. 🔍 Linting Otomatis (Pemeriksaan Format Kode)
+
+Untuk JS/TS dengan ESLint:
+
+```yaml
+- name: Run ESLint
+  run: npm run lint
+```
+
+Untuk Python:
+
+```yaml
+- name: Check Python code format
+  run: |
+    pip install flake8
+    flake8 .
+```
+
+---
+
+## 4. 📦 Otomatisasi Deploy
+
+Deploy ke Firebase (Hosting):
+
+```yaml
+- uses: FirebaseExtended/action-hosting-deploy@v0
+  with:
+    repoToken: "${{ secrets.GITHUB_TOKEN }}"
+    firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+    channelId: live
+    projectId: nama-proyek
+```
+
+Deploy ke Vercel:
+Gunakan token dan pasang action resmi Vercel dari marketplace.
+
+---
