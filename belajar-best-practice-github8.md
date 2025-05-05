@@ -136,3 +136,28 @@ Tambahkan notifikasi setelah job sukses/gagal:
        -d '{"content":"Build sukses! 🎉"}' \
        ${{ secrets.DISCORD_WEBHOOK }}
 ```
+
+---
+
+## 7. 🧪 Tes Matrix (Berbagai Versi)
+
+Jalankan test di beberapa versi Node:
+
+```yaml
+strategy:
+  matrix:
+    node-version: [14, 16, 18]
+```
+
+---
+
+## 🔚 Penutup: Otomatisasi = Profesionalisme
+
+Dengan GitHub Actions:
+✅ Proyek jadi lebih stabil
+✅ Kode lebih berkualitas
+✅ Workflow tim jadi modern
+
+> Bahkan proyek pribadi pun layak dibuat seprofesional proyek startup.
+
+---
