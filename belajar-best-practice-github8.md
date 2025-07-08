@@ -138,15 +138,3 @@ Tambahkan notifikasi setelah job sukses/gagal:
 ```
 
 ---
-
-## 7. 🧪 Tes Matrix (Berbagai Versi)
-
-Jalankan test di beberapa versi Node:
-
-```yaml
-strategy:
-  matrix:
-    node-version: [14, 16, 18]
-```
-
----
