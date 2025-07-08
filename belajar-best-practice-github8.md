@@ -150,14 +150,3 @@ strategy:
 ```
 
 ---
-
-## 🔚 Penutup: Otomatisasi = Profesionalisme
-
-Dengan GitHub Actions:
-✅ Proyek jadi lebih stabil
-✅ Kode lebih berkualitas
-✅ Workflow tim jadi modern
-
-> Bahkan proyek pribadi pun layak dibuat seprofesional proyek startup.
-
----
