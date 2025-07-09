@@ -91,20 +91,4 @@ Untuk Python:
 
 ---
 
-## 4. 📦 Otomatisasi Deploy
-
-Deploy ke Firebase (Hosting):
-
-```yaml
-- uses: FirebaseExtended/action-hosting-deploy@v0
-  with:
-    repoToken: "${{ secrets.GITHUB_TOKEN }}"
-    firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
-    channelId: live
-    projectId: nama-proyek
-```
-
-Deploy ke Vercel:
-Gunakan token dan pasang action resmi Vercel dari marketplace.
-
 ---
