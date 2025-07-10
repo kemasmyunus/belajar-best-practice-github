@@ -68,5 +68,3 @@ jobs:
     - name: Build APK
       run: ./gradlew build
 ```
-
----
