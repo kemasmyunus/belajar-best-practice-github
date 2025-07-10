@@ -25,25 +25,3 @@ Semua dikendalikan dengan file `.yml` di folder:
 ```
 
 ---
-
-## 2. ⚙️ Contoh Dasar: Build & Test Otomatis
-
-Contoh workflow Node.js:
-
-```yaml
-# .github/workflows/ci.yml
-name: CI
-on: [push, pull_request]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-    - run: npm install
-    - run: npm run lint
-    - run: npm test
-```
