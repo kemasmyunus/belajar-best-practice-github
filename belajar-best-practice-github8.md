@@ -70,25 +70,3 @@ jobs:
 ```
 
 ---
-
-## 3. 🔍 Linting Otomatis (Pemeriksaan Format Kode)
-
-Untuk JS/TS dengan ESLint:
-
-```yaml
-- name: Run ESLint
-  run: npm run lint
-```
-
-Untuk Python:
-
-```yaml
-- name: Check Python code format
-  run: |
-    pip install flake8
-    flake8 .
-```
-
----
-
----
